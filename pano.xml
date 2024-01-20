@@ -1,191 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.0.8" start="node1" apprev="20017">
+<tour apprev="20017" start="node1" appversion="7.0.8">
   <panorama id="node1">
-    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4407" levelingroll="0" levelbiashidpi="1.000" width="4407" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4407" preload="0" height="4407" predecode="0"/>
-      <level width="2203" preload="0" height="2203" predecode="0"/>
-      <level width="1101" preload="0" height="1101" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="4407" levelingpitch="0" levelingroll="0" width="4407" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" overlap="1" levelbiashidpi="1.000">
+      <level height="4407" predecode="0" preload="0" width="4407"/>
+      <level height="2203" predecode="0" preload="0" width="2203"/>
+      <level height="1101" predecode="0" preload="0" width="1101"/>
+      <level height="550" predecode="0" preload="0" width="550"/>
+      <level height="275" predecode="1" preload="1" width="275"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start fov="136.926" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
+      <start fov="136.926" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" pan="360" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata nodeid="node1" longitude="" customnodeid="" comment="" author="선택" datetime="2024. 1. 15. 오전 7:37" source="" info="" latitude="" title="101동 102호" tags="칸스톤" description="칸스톤" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot target="_blank" customimage="media/KakaoTalk_20240120_135810705.jpg" distance3D="571.503" customimageheight="60" fov="10" title="" pan="-38.69" skinid="sign" description="상판 스크래치" id="Point01" customimagewidth="100" tilt="-22.68" use3D="0" url=""/>
-      <hotspot target="_blank" customimage="media/KakaoTalk_20240120_135825473.jpg" distance3D="571.503" customimageheight="60" fov="10" title="" pan="-126.93" skinid="sign" description="이음부 결함" id="Point02" customimagewidth="100" tilt="-15.9" use3D="0" url=""/>
-      <hotspot target="_blank" title="" pan="-91.86" skinid="click" description="" id="Point03" tilt="-2.61" url=""/>
-      <hotspot target="_blank" customimage="media/image.png" distance3D="251.461" customimageheight="44" fov="10" title="" pan="-45.89" skinid="하자" description="" id="Point04" customimagewidth="44" tilt="-23.06" use3D="0" url=""/>
-      <hotspot target="_blank" customimage="media/image-5.png" distance3D="251.461" customimageheight="44" fov="10" title="" pan="-123.32" skinid="하자" description="" id="Point05" customimagewidth="44" tilt="-14.99" use3D="0" url=""/>
+    <userdata customnodeid="" copyright="" description="칸스톤" datetime="2024. 1. 15. 오전 7:37" latitude="" title="101동 101호" info="" longitude="" heading="0" comment="" tags="아파트" author="101" nodeid="node1" source=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label height="20" background="1" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" width="180" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textalpha="1" enabled="1" border="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot skinid="하자" id="Point01" description="상판 스크래치" title="" url="" pan="-40.99" tilt="-21.15" target="_blank"/>
+      <hotspot skinid="하자-스크래치" id="Point02" description="이음부 결함" title="" url="" pan="-123.71" tilt="-14.48" target="_blank"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
+    <transition softedge="0" zoomin="0" type="crossdissolve" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomfov="40" blendtime="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control speedwheel="1" contextfullscreen="1" zoomcentercursor="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4402" levelingroll="0" levelbiashidpi="1.000" width="4402" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4402" preload="0" height="4402" predecode="0"/>
-      <level width="2201" preload="0" height="2201" predecode="0"/>
-      <level width="1100" preload="0" height="1100" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="4402" levelingpitch="0" levelingroll="0" width="4402" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" leveltilesize="510" overlap="1" levelbiashidpi="1.000">
+      <level height="4402" predecode="0" preload="0" width="4402"/>
+      <level height="2201" predecode="0" preload="0" width="2201"/>
+      <level height="1100" predecode="0" preload="0" width="1100"/>
+      <level height="550" predecode="0" preload="0" width="550"/>
+      <level height="275" predecode="1" preload="1" width="275"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start fov="100" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
+      <start fov="100" pan="0" tilt="0" projection="4"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" pan="360" tilt="90" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata nodeid="node2" longitude="" customnodeid="" comment="" author="선택" datetime="2024. 1. 15. 오전 7:29" source="" info="" latitude="" title="101동 103호" tags="칸스톤" description="칸스톤" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot target="_blank" title="" pan="-359.3" skinid="sign" description="" id="Point01" tilt="-2.36" url=""/>
+    <userdata customnodeid="" copyright="" description="칸스톤" datetime="2024. 1. 15. 오전 7:29" latitude="" title="101동 102호" info="" longitude="" heading="0" comment="" tags="아파트" author="102" nodeid="node2" source=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label height="20" background="1" borderalpha="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" width="180" backgroundalpha="1" borderradius="1" bordercolor="0x000000" textalpha="1" enabled="1" border="1"/>
+      <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot skinid="하자" id="Point02" description="" title="" url="" pan="-316.23" tilt="-23.37" target="_blank"/>
+      <hotspot skinid="하자-스크래치" id="Point01" description="" title="" url="" pan="-249.77" tilt="-10.87" target="_blank"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
-  </panorama>
-  <panorama id="node3">
-    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4402" levelingroll="0" levelbiashidpi="1.000" width="4402" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4402" preload="0" height="4402" predecode="0"/>
-      <level width="2201" preload="0" height="2201" predecode="0"/>
-      <level width="1100" preload="0" height="1100" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="100" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
-    </view>
-    <userdata nodeid="node3" longitude="" customnodeid="" comment="" author="" datetime="2024. 1. 15. 오전 7:35" source="" info="" latitude="" title="201동 104호" tags="칸스톤" description="중문" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
-  </panorama>
-  <panorama id="node4">
-    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4407" levelingroll="0" levelbiashidpi="1.000" width="4407" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4407" preload="0" height="4407" predecode="0"/>
-      <level width="2203" preload="0" height="2203" predecode="0"/>
-      <level width="1101" preload="0" height="1101" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="100" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
-    </view>
-    <userdata nodeid="node4" longitude="" customnodeid="" comment="" author="" datetime="2024. 1. 15. 오전 7:36" source="" info="" latitude="" title="201동 105호" tags="칸스톤" description="중문" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
-  </panorama>
-  <panorama id="node5">
-    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4402" levelingroll="0" levelbiashidpi="1.000" width="4402" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4402" preload="0" height="4402" predecode="0"/>
-      <level width="2201" preload="0" height="2201" predecode="0"/>
-      <level width="1100" preload="0" height="1100" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="100" pan="172.958" projection="4" tilt="-3.06779"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
-    </view>
-    <userdata nodeid="node5" longitude="" customnodeid="" comment="" author="" datetime="2024. 1. 15. 오전 7:57" source="" info="" latitude="" title="104동 302호" tags="칸스톤" description="창호" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot target="_blank" title="" pan="-179.23" skinid="sign" description="" id="Point01" tilt="-3.53" url=""/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
-  </panorama>
-  <panorama id="node6">
-    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4407" levelingroll="0" levelbiashidpi="1.000" width="4407" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4407" preload="0" height="4407" predecode="0"/>
-      <level width="2203" preload="0" height="2203" predecode="0"/>
-      <level width="1101" preload="0" height="1101" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="100" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
-    </view>
-    <userdata nodeid="node6" longitude="" customnodeid="" comment="" author="" datetime="" source="" info="" latitude="" title="107동 203호" tags="칸스톤" description="창호" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot target="_blank" title="" pan="-352.95" skinid="sign" description="" id="Point01" tilt="0.16" url=""/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
-  </panorama>
-  <panorama id="node7">
-    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="4402" levelingroll="0" levelbiashidpi="1.000" width="4402" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level width="4402" preload="0" height="4402" predecode="0"/>
-      <level width="2201" preload="0" height="2201" predecode="0"/>
-      <level width="1100" preload="0" height="1100" predecode="0"/>
-      <level width="550" preload="0" height="550" predecode="0"/>
-      <level width="275" preload="1" height="275" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="100" pan="175.028" projection="4" tilt="-0.546729"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" tilt="90" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
-    </view>
-    <userdata nodeid="node7" longitude="" customnodeid="" comment="" author="" datetime="2024. 1. 15. 오전 7:58" source="" info="" latitude="" title="109동 302호" tags="칸스톤" description="창호" copyright="" heading="0"/>
-    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
-      <label border="1" bordercolor="0x000000" height="20" borderradius="1" background="1" enabled="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" width="180" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot target="_blank" title="" pan="-178.57" skinid="sign" description="" id="Point01" tilt="-5.28" url=""/>
-    </hotspots>
-    <media/>
-    <transition type="crossdissolve" zoomafteroutfov="40" zoomafterinfov="140" zoomoutpause="1" delay="none" blendtime="1" enabled="1" zoomout="0" blendcolor="0x000000" softedge="0" zoomfov="40" zoomspeed="2" zoomin="0"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0" lockedmouse="0" speedwheel="1" sensitivity="8" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" invertwheel="0" rubberband="0" invertcontrol="1" contextvr="1" lockedwheel="0" contextprojections="0" zoomcentercursor="1"/>
+    <transition softedge="0" zoomin="0" type="crossdissolve" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomfov="40" blendtime="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0"/>
+    <control speedwheel="1" contextfullscreen="1" zoomcentercursor="1" sensitivity="8" simulatemass="1" lockedkeyboard="0" contextvr="1" lockedkeyboardzoom="0" invertcontrol="1" hideabout="0" rubberband="0" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata title="" tags="" description="" copyright="" comment="" author=""/>
+    <userdata author="" copyright="" description="" title="" comment="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
