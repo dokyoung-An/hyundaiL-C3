@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ??L&C ??.ggsk
-// Generated 2024-01-20T16:13:52
+// Generated 2024-01-20T16:16:58
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_copy', 2, false, { ignoreInState: 0  });
@@ -5151,7 +5151,7 @@ function pano2vrSkin(player,base) {
 		hs+='top: 50%;';
 		hs+='transform: translate(0, -50%);';
 		hs+='white-space: pre;';
-		hs+='padding: 0px 0px 0px 10px;';
+		hs+='padding: 0px 0px 0px 40px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me.__34.ggUpdateText=function() {
@@ -8809,7 +8809,7 @@ function pano2vrSkin(player,base) {
 		hs+='top: 50%;';
 		hs+='transform: translate(0, -50%);';
 		hs+='white-space: pre;';
-		hs+='padding: 0px 0px 0px 38px;';
+		hs+='padding: 0px 0px 0px 30px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me._mobile12.ggUpdateText=function() {
